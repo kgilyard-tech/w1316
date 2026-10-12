@@ -1,0 +1,64 @@
+body{
+margin: 0;
+color: white;
+}
+
+header{
+background-color: #322b4d;
+padding: 30px;
+color: white;
+text-align: center;
+font-size: 35px;
+}
+
+section{
+display: -webkit-flex;
+display: flex;
+}
+
+nav{
+-webkit-box-flex: 1;
+-ms-flex: 1;
+flex: 1;
+background-color: #68599e;
+padding: 18px;
+}
+
+nav ul{
+list-style-type: none;
+padding: 0;
+}
+
+a:visited{
+color: white;
+}
+
+article{
+-webkit-box-flex: 4;
+-ms-flex: 4;
+flex: 4;
+background-color:#9d86f0;
+padding: 18px;
+}
+
+.other{
+-webkit-box-flex: 1;
+-ms-flex: 1;
+flex: 1;
+padding: 18px;
+}
+
+footer{
+background-color:#322b4d;
+color: white;
+text-align: center;
+padding: 10px;
+}
+
+.fr{
+float: right;
+}
+
+
+
+

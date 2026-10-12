@@ -1,0 +1,36 @@
+body{margin:0;}
+header{
+background-color: #2f6f73;
+color:white;
+text-align: center;
+padding: 20px;
+}
+
+
+
+h2,h3,h4 {font-size: 18px; font-weight: bold;}
+
+.container{
+width: 80%;
+margin: 30px auto;
+}
+
+.box{
+background-color: #e4f1f2;
+width: 100%;
+margin-bottom: 20px;
+padding: 20px;
+border: 2px solid #2f6f73
+}
+
+.highlight{
+color: #c0392b;
+font-weight: bold;
+}
+
+footer{ 
+background-color: #2f6f73;
+color: white;
+text-align: center;
+padding: 15px;
+}

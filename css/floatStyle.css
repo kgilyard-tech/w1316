@@ -1,0 +1,66 @@
+body{
+margin: 0%;
+padding: 0;
+color: black;
+}
+
+header{
+background-color: #322b4d;
+padding: 30px;
+color: white;
+text-align: center;
+font-size: 35px;
+clear: both;
+}
+
+section::after {
+content: "";
+display:table;
+clear: both;
+}
+
+
+nav{
+float: left;
+background-color: #68599e;
+padding: 18px;
+width: 28%;
+height: 1200px; /*demonstation only will be removed*/
+}
+
+nav ul{
+list-style-type: none;
+padding: 0;
+}
+
+.fw{
+color: white;}
+
+a:visited{
+ color: white;
+}
+
+article{ 
+float: left;
+background-color:#9d86f0;
+padding: 18px;
+width: 68%;
+height: 1200px;   /*demonstation only will be removed*/
+}
+
+
+
+footer{
+background-color:#322b4d;
+color: white;
+text-align: center;
+padding: 10px;
+}
+
+@media (max-width: 600px)
+{
+nav, article{
+width: 100%;
+height: auto;
+}
+}
