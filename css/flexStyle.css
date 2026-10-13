@@ -1,6 +1,7 @@
 body{
 margin: 0;
-color: white;
+color: rgb(47, 5, 87);
+font-weight:bolder;
 }
 
 header{
@@ -37,7 +38,7 @@ article{
 -webkit-box-flex: 4;
 -ms-flex: 4;
 flex: 4;
-background-color:#9d86f0;
+background-color:#e6c50e;
 padding: 18px;
 }
 
